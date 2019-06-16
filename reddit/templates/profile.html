@@ -1,0 +1,15 @@
+
+{% block content %}
+  {% for post in posts %}
+        <article class="media content-section" >
+          <div class="media-body">
+            <div class="article-metadata">{{ post['data']['author'] }}</a>
+              <small class="text-muted">{{ post['data']['title']}}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ post['data']['num_comments'] }} </a></h2>
+            <p class="article-content">{{ post['data']['ups']}}</p>
+          </div>
+        </article>
+
+  {% endfor %}
+{% endblock content %}
