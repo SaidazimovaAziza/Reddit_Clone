@@ -64,7 +64,7 @@ def search_for_subreddit():
 
 
 @app.route("/login", methods=['GET', 'POST'])
-def login():
+def login():# do not work as login
     form = LoginForm()
     if form.validate_on_submit():
     	response = requests.get('https://oauth.reddit.com/https://www.reddit.com'
