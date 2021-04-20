@@ -16,7 +16,7 @@ packaging
 pluggy
 praw==6.2.0
 prawcore==1.0.1
-py==1.8.0
+py==1.10.0
 pyparsing==2.4.0
 pytest==4.6.3
 requests==2.22.0
